@@ -12,4 +12,4 @@
 </p>
 <p> 3. Change prefix and token to the one your bot uses. </p>
 <p> 4. Then type <code>npm i</code> in root of the folder to install dependencies. </p>
-<p> run the bot with <strong>node index.js</strong></p>
+<p> run the bot with <code>node index.js</code></p>
