@@ -13,7 +13,8 @@
 <p> 3. Change prefix and token to the one your bot uses. </p>
 <p> 4. Then type <code>npm i</code> in root of the folder to install dependencies. </p>
 <p> run the bot with <code>node index.js</code></p>
-## Commands Structure
+
+# Commands Structure
  
 <p> <code>module.exports = { </code><br>
 <code>	name: 'ping', // unique name of the command </code><br>
