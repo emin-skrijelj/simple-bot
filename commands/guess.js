@@ -10,7 +10,7 @@ module.exports = {
     // eslint-disable-next-line no-unused-vars
     execute(msg, args) {
         if(args[0] === 'number'){
-            randomnum = Math.floor(Math.random(10))
+            randomnum = Math.floor(Math.random()*15)
             return msg.reply("New number guessing game started\n Good Luck!")
         }
 
