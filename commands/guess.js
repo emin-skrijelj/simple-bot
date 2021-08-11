@@ -14,12 +14,12 @@ module.exports = {
             return msg.reply("New number guessing game started\n Good Luck!")
         }
 
-        if(randomNumber){
-            if(randomNumber !== parseInt(args[0])){
+        if(randomnum){
+            if(randomnum !== parseInt(args[0])){
                 return msg.reply('That\'s not the right number, try again!')
             }
             
-            randomNumber = undefined
+            randomnum = undefined
             return msg.reply('You\'ve guessed the number!')
         }
 
